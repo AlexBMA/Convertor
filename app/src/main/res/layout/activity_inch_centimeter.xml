@@ -6,47 +6,44 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context="com.example.alex.distanceconvertor.InchCentimeter">
-
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/instruction"
-            android:gravity="center"
             android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/instruction"
             />
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/et_val_ic"
-            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:gravity="center"
             android:inputType="numberDecimal"
             />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/b_convert_inch"
-            android:gravity="center"
             android:id="@+id/b_convert_to_inch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:gravity="center"
             android:onClick="convertCentimeterToInch"
+            android:text="@string/b_convert_inch"
             />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/b_convert_centimeter"
-            android:gravity="center"
             android:id="@+id/b_convert_to_centimeter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:gravity="center"
             android:onClick="convertInchToCentimeter"
+            android:text="@string/b_convert_centimeter"
             />
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/tv_res_convert_i_c"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:id="@+id/tv_res_convert_i_c"
             />
-
-
     </LinearLayout>
 

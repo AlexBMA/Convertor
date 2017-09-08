@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.alex.distanceconvertor.InchCentimeter">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instruction"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_val_ic"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_convert_inch"
+            android:gravity="center"
+            android:id="@+id/b_convert_to_inch"
+            android:layout_gravity="center"
+            android:onClick="convertCentimeterToInch"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b_convert_centimeter"
+            android:gravity="center"
+            android:id="@+id/b_convert_to_centimeter"
+            android:layout_gravity="center"
+            android:onClick="convertInchToCentimeter"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/tv_res_convert_i_c"
+            />
+
+
+    </LinearLayout>
+

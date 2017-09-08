@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">DistanceConvert</string>
+    <string name="instruction">Enter value to convert</string>
+
+    <string name="b_convert_miles">Convert to miles</string>
+    <string name="b_convert_kilo">Convert to kilometers</string>
+
+    <string name="b_miles_to_kilo">Miles to kilo</string>
+    <string name="b_inch_to_centimeter">Inch to centimeter</string>
+
+    <string name="b_convert_inch">Convert to inch</string>
+    <string name="b_convert_centimeter">Convert to centimeter</string>
+
+    <string name="title_activity_inch_centimeter">InchCentimeter</string>
+
+</resources>

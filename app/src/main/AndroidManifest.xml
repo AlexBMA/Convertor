@@ -21,7 +21,10 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".InchCentimeter"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PoundsKilograms"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

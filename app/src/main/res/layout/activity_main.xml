@@ -20,4 +20,11 @@
         android:onClick="inchToCentimeterActivity"
         android:text="@string/b_inch_to_centimeter"
         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="poundsToKilometers"
+        android:text="@string/b_pounds_to_kilometers" />
 </LinearLayout>

@@ -22,7 +22,6 @@
             android:inputType="numberDecimal"
             />
         <Button
-            android:id="@+id/b_convert_to_inch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -31,7 +30,6 @@
             android:text="@string/b_convert_inch"
             />
         <Button
-            android:id="@+id/b_convert_to_centimeter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

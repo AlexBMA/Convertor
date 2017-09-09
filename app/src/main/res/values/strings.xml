@@ -4,14 +4,22 @@
     <string name="instruction">Enter value to convert</string>
 
     <string name="b_convert_miles">Convert to miles</string>
+    <string name="miles">miles</string>
     <string name="b_convert_kilo">Convert to kilometers</string>
+    <string name="kilometers">kilometers</string>
 
     <string name="b_miles_to_kilo">Miles to kilometers</string>
     <string name="b_inch_to_centimeter">Inch to centimeter</string>
+    <string name="b_pounds_to_kilometers">Pounds to kilometers</string>
 
     <string name="b_convert_inch">Convert to inch</string>
+    <string name="inches">inches</string>
     <string name="b_convert_centimeter">Convert to centimeter</string>
+    <string name="centimeters">centimeters</string>
 
-    <string name="title_activity_inch_centimeter">InchCentimeter</string>
+    <string name="b_convert_pounds">Convert to pounds</string>
+    <string name="pounds">pounds</string>
+    <string name="b_convert_kilograms">Convert to kilograms</string>
+    <string name="kilograms">kilograms</string>
 
 </resources>

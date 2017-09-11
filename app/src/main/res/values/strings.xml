@@ -11,6 +11,7 @@
     <string name="b_miles_to_kilo">Miles to kilometers</string>
     <string name="b_inch_to_centimeter">Inch to centimeter</string>
     <string name="b_pounds_to_kilometers">Pounds to kilometers</string>
+    <string name="b_feet_to_meters">Feet to meters</string>
 
     <string name="b_convert_inch">Convert to inch</string>
     <string name="inches">inches</string>
@@ -21,5 +22,10 @@
     <string name="pounds">pounds</string>
     <string name="b_convert_kilograms">Convert to kilograms</string>
     <string name="kilograms">kilograms</string>
+
+    <string name="b_convert_feet">Convert to feet</string>
+    <string name="feet">feet</string>
+    <string name="b_convert_meters">Convert to meters</string>
+    <string name="meters">meters</string>
 
 </resources>

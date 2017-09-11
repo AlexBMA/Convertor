@@ -1,37 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.alex.distanceconvertor.MainActivity">
-    <Button
+    tools:context="com.example.alex.distanceconvertor.FeetMeters">
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:onClick="milesToKilometerActivity"
-        android:text="@string/b_miles_to_kilo"
-        />
-    <Button
+        android:gravity="center"
+        android:text="@string/instruction" />
+
+    <EditText
+        android:id="@+id/et_val_fm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:onClick="inchToCentimeterActivity"
-        android:text="@string/b_inch_to_centimeter"
-        />
+        android:gravity="center"
+        android:inputType="numberDecimal" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:onClick="poundsToKilometers"
-        android:text="@string/b_pounds_to_kilometers" />
+        android:gravity="center"
+        android:onClick="convertFeetToMeters"
+        android:text="@string/b_convert_feet" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:onClick="feetToMeters"
-        android:text="@string/b_feet_to_meters" />
+        android:gravity="center"
+        android:onClick="convertMetersToFeet"
+        android:text="@string/b_convert_meters" />
+
+    <TextView
+        android:id="@+id/tv_res_convert_f_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
 </LinearLayout>

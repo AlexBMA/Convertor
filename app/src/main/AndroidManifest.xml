@@ -25,6 +25,7 @@
         <activity
             android:name=".PoundsKilograms"
             android:parentActivityName=".MainActivity" />
+        <activity android:name=".FeetMeters"></activity>
     </application>
 
 </manifest>

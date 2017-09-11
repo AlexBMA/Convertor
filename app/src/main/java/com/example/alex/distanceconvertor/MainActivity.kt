@@ -19,10 +19,13 @@ class MainActivity : AppCompatActivity() {
         val intent: Intent = Intent(this, InchCentimeter::class.java)
         startActivity(intent)
     }
-
     fun poundsToKilometers(view: View) {
         val intent: Intent = Intent(this, PoundsKilograms::class.java)
         startActivity(intent)
     }
 
+    fun feetToMeters(view: View) {
+        val intent: Intent = Intent(this, FeetMeters::class.java)
+        startActivity(intent)
+    }
 }
